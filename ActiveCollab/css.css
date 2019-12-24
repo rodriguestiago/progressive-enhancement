@@ -25,8 +25,7 @@ li {
     line-height: 30px;
 }
 .logo{
-    font-size: 1.6em;
-    
+    font-size: 1.6em; 
 }
 .logo a{
     padding-left: 50px;
@@ -36,9 +35,11 @@ li {
     color: black;
 }
 .help, .blog, .resources, .btn-1, .btn-2 {
-    float: right;
     display: inline;
     margin-right: 20px;
+}
+.help a{
+    margin-left: 500px;
 }
 .more a{
     color: #7E8798;
@@ -50,35 +51,35 @@ h1{
     top: 60px;
     text-align: center;
     font-weight: lighter;
-    
 }
 .btn-1{
     width: 100px;
     height: 35px;
-    border-radius: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     background-color: #3F9BF8;
     font-size: 1em;
     color: white;
     border: 1px solid black;
-    top: 200px;
     margin:0 auto;
     display:inline;
+    margin-left: 1300px;
+    cursor: pointer;
 }
 .btn-2{
     width: 100px;
     height: 35px;
-    border-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     background-color: white;
     font-size: 1em;
     color: black;
     border: 1px solid black;
-    top: 200px;
     margin:0 auto;
     display:inline;
+    margin-left: -10px;
+    cursor: pointer;
 }
-
-
-
 .posts {
     position: relative;
     top: 100px;
@@ -151,17 +152,6 @@ h3{
   height: 500px;
 
 }
-
-
-
-.plan-img{
-    
-}
-.host-img{
-    
-}
-
-
 h4{
     font-size: 1.7em;
     font-weight: lighter;
@@ -194,7 +184,6 @@ h4{
     padding: 50px;
 }
 .plans .art-1, .art-2 {
-    
     padding: 0 30px 0 0;
     color: black;
     text-align: center;
@@ -234,7 +223,6 @@ h5{
     font-weight: lighter;
     text-align: center;
 }
-
 .p-partners{
     width: 700px;
     margin: auto;
@@ -259,9 +247,6 @@ h5{
     top: 70px;
     text-align: center;
 }
-
-
-
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -280,7 +265,7 @@ input[type=password], select {
   border: 1px solid black;
   border-radius: 4px;
   box-sizing: border-box;
-   font-size: 15px;
+  font-size: 15px;
 }
 input[type=submit] {
   width: 50%;
@@ -305,7 +290,7 @@ input[type=submit] {
   margin: 100px 0 0 540px;
 }
 .name{
-    font-weight: bold;
+  font-weight: bold;
 }
 .email{
     margin-top: 15px;
@@ -335,31 +320,25 @@ input[type=submit] {
     height: 500px;
     background-color: #3F4655;
 }
-.1st-menu {
-    
-    
-/*     padding-top: 50px;*/
-    
-    
-    list-style:none;
+.bottom-menu  .1st-menu {
+     list-style:none;
 }
-ul li {
+.bottom-menu ul li {
     float:left; 
-    width:350px; 
     font-weight:bold;
     color: #9EA2A9;
     display: block;
 }
-ul li ul {
+.bottom-menu ul li ul {
     padding:0;
 }
-ul li ul li {
+.bottom-menu ul li ul li {
     float:none; 
     padding:5px 0; 
     font-weight:normal;
     color: #FFFFFF;
 }
-.product{
+li .product{
     width: 150px;
 }
 .alternative{
